@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+	
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+		<style>
+			/* Flexコンテナー */
+			.flex-container {
+				display: flex; /* Flexboxを使用する */
+			}
+			
+			/* 各コンテナーのスタイル */
+			.container {
+				box-sizing: border-box; /* ボーダーボックスモデルを使用して、ボーダーとパディングを含めた幅を指定 */
+				margin-left: 50px;
+				margin-top: 30px;
+			}
+			.container .koko{
+				margin-left: 30px;
+			}
+			.custom-link {
+    color: red;
+  }
+		</style>
+	</header>
+	<!-- Header(End) -->
+	<!-- Main(Start) -->
+	<main>
+		<div class="container">
+			<h1 >Bootstrapを始めよう。</h1>
+			<h4>世界で一番人気のあるフロントエンドライブラリBootstrapで、モバイルファーストなレスポンシブウェ<br>
+				ブを素早くデザイン・カスタムできます。レスポンシブグリッドシステム、豊富なコンポーネン<br>
+				ト、強力なJavaScriptプライングを備えています。</h4>
+				<button type="button"  class="btn btn-primary" ><a href="https://getbootstrap.jp/docs/5.3/utilities/link/" class="text-reset text-decoration-none custom-link">公式サイト</a></button>
+		</div>
+		<div class="container">
+			<hr>
+		</div>
+
+		<!-- 左側のコンテナー -->
+		<div class="container">
+			<div class="row">
+				 <div class="col-md-6">
+				<!-- 左側の要素 -->
+				<h2>Layout</h2>
+			<p>Bootstrapには強力なレイアウトシステムが存在します。先ずは<br>
+				コンテナとグリットシステムを理解しましょう。</p>
+			<p2 class="koko">・<a href="#" class="link-underline-primary">Containers</a></p2><br>
+			<p3 class="koko">・Grid(comming soon)</p3>
+		</div>
+		
+		<!-- 右側のコンテナー -->
+		<div class="col-md-6">
+			<!-- 右側の要素 -->
+			<h2>Components</h2>
+			<p>Bootstrapには、様々なコンポーネントが備わっています。必要に<br>
+				応じて使いこなしましょう</p>
+				<p2 class="koko">・<a href="#" class="link-underline-primary">Button guide</a></p2><br>
+				<p2 class="koko">・<a href="#" class="link-underline-primary">Alert guide</a></p2><br>
+				<p2 class="koko">・<a href="#" class="link-underline-primary">Card guide</a></p2><br>
+				<p2 class="koko">・<a href="#" class="link-underline-primary">Collapse guide</a></p2><br>
+				<p2 class="koko">・<a href="#" class="link-underline-primary">Accordion guide</a></p2><br>
+				<p2 class="koko">・etc...(comming soon!!)</p2><br>
+		  </div>
+		  </div>
+	</div>
+
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
